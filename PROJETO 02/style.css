@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+
+font-family: 'Open Sans', sans-serif;
+background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+min-height: 100vh;
+
+zoom: 125%;
+}
+
+/* esse comando que faz a box na pagina   margin: 65px auto 0;*/
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+/* CRTL+SHIFT+i= DevTools no navegador*/
+/*display: flex; e o comando que faz os blocks ficarem um do lado do outro*/
+/* align-items: center; e o comando que vai deixar os objetos alinhados em uma linha central "equilibrados"*/
+/*justify-content: space-between; e o que vai deixar um espaco entre os dois blocks*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+
+  
+  font-family: 'Mulish', sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  padding: 0;
+  margin: 0;
+  
+}
+ 
+/* Tirar o sublinhado do link ( text-decoration: none;)*/
+/* mudamos a cor do link colocando (color...) */
+a {
+  color: #1F1534;
+  text-decoration: none;
+}
+
+ul li a {
+  opacity: 0,5;
+}
+
+/* pseudo-class esse comando (HOVER) e o que vai fazer 
+ a font do texto mudar quando passar o mouse em cima*/
+ ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+ }
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+
+  font-weight: normal;
+
+  width: 490px;
+}
+
+h1 span { 
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+
+  margin: 40px 0;
+}
+
+/* (border-radius) tag que deixa a borda redonda*/
+button {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+
+  background: #69b99d;
+  border: 0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4ea788;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+
+  text-align: center;
+
+
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0;
+  right: 0; 
+}
