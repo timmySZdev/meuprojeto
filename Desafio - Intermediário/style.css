@@ -8,7 +8,7 @@ body {
   background: linear-gradient(180deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
 
 
-  min-height: 100vh;
+ height: 100vh;
 }
 
 .page {
@@ -23,7 +23,7 @@ nav {
   align-items: center;
 
 
-  margin-bottom: 59px;
+  margin-bottom: 55px;
 
 
 }
